@@ -20,7 +20,7 @@ console.log(reverse);
 //input:"Hello World
 //output:"World Hello"
 const inputString = "Hello World";
-const words = inputString.split(" "); // Split the string into an array of words
+const words = inputString.split(" "); // ["Hello", "World"]
 const reversedWords = []; // create empty array to store value
 
 for (let i = words.length - 1; i >= 0; i--) {
